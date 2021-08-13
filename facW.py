@@ -3,8 +3,8 @@ contador = 4.65
 
 while contador > 1:
     # um jeito de fazer as coisas print(f'{contador:,.2f} x ', end='').
-    print('{%g} x ' % contador, end='')  # end = '' , alinhou as coisas, sem ele seria na vertical
-    fatorial *= contador
+    print('{%g} x ' % contador, end='')  # end = '' , alinhou as coisas, sem ele seria na vertical.
+    fatorial *= contador  # e eu deixei ele dentro de {chaves} por querer. não precisa usar chaves no %.
     contador -= 1
 print("1 = ",round(fatorial,2))
 # round(fatorial) ou round(factorial,None) faz o mesmo, já com numero no lugar diz quantos numero vai mostrar apos a
